@@ -81,19 +81,19 @@ TEST(SumPrimeTest, SmallBounds) {
   EXPECT_EQ(sumPrime(2), 0);
   EXPECT_EQ(sumPrime(3), 2);
   EXPECT_EQ(sumPrime(4), 2);
-  EXPECT_EQ(sumPrime(5), 5);  
-  EXPECT_EQ(sumPrime(6), 5); 
+  EXPECT_EQ(sumPrime(5), 5);
+  EXPECT_EQ(sumPrime(6), 5);
   EXPECT_EQ(sumPrime(7), 10);
   EXPECT_EQ(sumPrime(8), 10);
   EXPECT_EQ(sumPrime(9), 10);
-  EXPECT_EQ(sumPrime(10), 17); 
-  EXPECT_EQ(sumPrime(11), 17); 
+  EXPECT_EQ(sumPrime(10), 17);
+  EXPECT_EQ(sumPrime(11), 17);
 }
 
 TEST(SumPrimeTest, KnownSums) {
   EXPECT_EQ(sumPrime(10), 17);
-  EXPECT_EQ(sumPrime(20), 77);     
-  EXPECT_EQ(sumPrime(30), 129);     
+  EXPECT_EQ(sumPrime(20), 77);
+  EXPECT_EQ(sumPrime(30), 129);
 }
 
 TEST(SumPrimeTest, LargeBound) {
