@@ -80,12 +80,12 @@ TEST(NextPrimeTest, RoundNumbers) {
 TEST(SumPrimeTest, SmallBounds) {
   EXPECT_EQ(sumPrime(2), 0);
   EXPECT_EQ(sumPrime(3), 2);
-  EXPECT_EQ(sumPrime(4), 2);
+  EXPECT_EQ(sumPrime(4), 5);
   EXPECT_EQ(sumPrime(5), 5);
-  EXPECT_EQ(sumPrime(6), 5);
+  EXPECT_EQ(sumPrime(6), 10);
   EXPECT_EQ(sumPrime(7), 10);
-  EXPECT_EQ(sumPrime(8), 10);
-  EXPECT_EQ(sumPrime(9), 10);
+  EXPECT_EQ(sumPrime(8), 17);
+  EXPECT_EQ(sumPrime(9), 17);
   EXPECT_EQ(sumPrime(10), 17);
   EXPECT_EQ(sumPrime(11), 17);
 }
